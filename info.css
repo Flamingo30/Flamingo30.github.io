@@ -1,0 +1,58 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.info1
+{
+    background-color: rgb(168, 200, 189);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(26, 58, 26);
+    letter-spacing: 1.5px;
+    
+}
+
+.column {
+    float: left;
+    width: 30.30%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 30.30%;
+    padding: 5px;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 90px%;
+    }
+  }
+
+  .text .para
+  {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
